@@ -1,7 +1,9 @@
 {
   "name": "vite-babylon-800",
   "author": "Andrei Stepanov <eldinor@gmail.com> (https://babylonpress.org/)",
-  "contributors":["minibao (https://github.com/minibao/babylon-vite)"],
+  "contributors": [
+    "minibao (https://github.com/minibao/babylon-vite)"
+  ],
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -25,6 +27,8 @@
     "@babylonjs/inspector": "^8.0.1",
     "@babylonjs/loaders": "^8.0.1",
     "@babylonjs/materials": "^8.0.1",
-    "@babylonjs/post-processes": "^8.0.1"
+    "@babylonjs/post-processes": "^8.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

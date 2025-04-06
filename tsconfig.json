@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        "jsx": "react-jsx",
+        "allowImportingTsExtensions": true,
+
         "target": "ESNext", // choose our ECMA/JavaScript version (all modern browsers support ES6 so it's your best bet)
         "lib": [ // choose our default ECMA/libraries to import
             "dom", // mandatory for all browser-based apps
@@ -26,5 +29,8 @@
         }
     },
     "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx", "src/**/*.d.ts", "**/*.ts", "**/*.glsl", "**/*.vue"],
-    "exclude": ["node_modules", "tests/server/**/*.ts", "dist", "**/*.js"]
+    "exclude": ["node_modules", "tests/server/**/*.ts", "dist", "**/*.js"],
+    "references": [
+       // { "path": "./tsconfig.app.json" }
+      ]
 }

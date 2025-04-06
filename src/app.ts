@@ -10,7 +10,7 @@ import HavokPhysics from "@babylonjs/havok";
 
 import MainScene from "./playground/main-scene";
 
-class App {
+export class App {
   public engine: Engine | WebGPUEngine;
   public scene: Scene;
 
@@ -134,4 +134,4 @@ class App {
   }
 }
 
-new App();
+//new App();
