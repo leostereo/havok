@@ -12,6 +12,7 @@ function Layout() {
                     <li><a href="/">Home</a></li>
                     <li><a href="/hook1-rotatingbox">Hook example 1</a></li>
                     <li><a href="/phy1-falling-ball">Physic example1</a></li>
+                    <li><a href="/first-person-view">First person view</a></li>
                 </ul>
             </nav>
             <main className="content">

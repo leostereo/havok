@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import RotatingBoxScene from './scenes/rotatingBoxHook/SceneContainer.tsx'
 import FallingBallScene from './scenes/fallingSphereClass/SceneContainer.tsx'
+import FirstPersonView from './scenes/firstPersonView/SceneContainer.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './css/index.css'
 import Layout from './layout/layout.tsx'
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')!).render(
                     <Route index element={<Home />} />
                     <Route path="/hook1-rotatingbox" element={<RotatingBoxScene />} />
                     <Route path="/phy1-falling-ball" element={<FallingBallScene />} />
+                    <Route path="/first-person-view" element={<FirstPersonView />} />
                 </Route>
             </Routes>
         </StrictMode>,
